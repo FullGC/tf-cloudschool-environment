@@ -1,0 +1,5 @@
+terraform_bucket = "cloudschool-tf-state"
+site_module_state_path = "site/terraform.tfstate"
+bootstrap_ssh_key_path = "/home/dani/.ssh/canary"
+environment = "cloudschool"
+db_admin_password = "1234"
