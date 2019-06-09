@@ -2,14 +2,6 @@ variable "db_admin_password" {
   description = "Database admin password"
 }
 
-variable "chef_validation_pem_path" {
-  description = "Path on local filesystem to chef validation key"
-}
-
-variable "chef_server_url" {
-  default = "https://chef-canary.inner-active.mobi/organizations/ia-canary"
-}
-
 
 variable "terraform_bucket" {
   description = "Bucket for terraform remote state"
